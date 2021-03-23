@@ -5,7 +5,10 @@ sudo ./byfn down
 # fabcar
 cd ../fabcar
 rm -rf wallet
-cd javascript
+
+# javascript
+
+cd javascript 
 node enrollAdmin.js
 node registerUser.js
 node apiserver.js
