@@ -3,11 +3,11 @@ cd first-network
 sudo ./byfn down
 
 # fabcar
-cd ../fabcar
-rm -rf wallet
+cd ../fabcar/
+sudo ./startFabric.sh 
 
 # javascript
-
+rm -rf wallet
 cd javascript 
 node enrollAdmin.js
 node registerUser.js
